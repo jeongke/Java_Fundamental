@@ -9,10 +9,10 @@ public class FootNanoStopWatch {
 	}
 	public static void main(String[] args) {
 		FootNanoStopWatch f = new FootNanoStopWatch();
-		//1970년 1월 1일 부터 현재까지의 시간을 밀리세컨드로 반환
+		//1970년 1월 1일 부터 현재까지의 시간을 나노세컨드로 반환
 		f.startTime = System.nanoTime();
 		
-		for(long i = 0;i<300_000_000_000l;i++) {
+		for(long i = 0;i<30_000_000_000l;i++) {
 			
 		}
 		
