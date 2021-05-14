@@ -10,14 +10,14 @@ public class WrapperDemo {
 		//아래와 같이 1을 저장할 수 없음.
 		ArrayList list = new ArrayList();
 		list.add(1);
-		list.add(new Integer(1));
+		list.add(new Integer(1));//Integer.valueOf로 사용
 		
 		
 		//1.primitive data type => wrapper class(valueOf(~))
 		Integer i1 = Integer.valueOf(10);
 		Integer i2 = Integer.valueOf("20");
 		
-		//2.wrapper class => primitive data type(intvalue())
+		//2.wrapper class => primitive data type(intValue())
 		int i3 = i1.intValue();
 		int i4 = i2.intValue();
 		
