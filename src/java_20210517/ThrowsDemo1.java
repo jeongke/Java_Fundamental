@@ -29,6 +29,8 @@ public class ThrowsDemo1 {
 		System.err.println("경로와 파일명을 정확히 입력하세요");
 	}catch(ArrayIndexOutOfBoundsException e) {
 		System.err.println("실행시 파일명을 입력하세요");
+
+		
 		System.err.println("예)Run Configurations -> Arguments -> program Arguments");
 		}
 	}
