@@ -36,6 +36,18 @@ public class ExcelDemo {
 	cell = row.createCell(2);
 	cell.setCellValue("테스트 데이터 (1,2)");
 	
+	row = sheet.createRow(2);
+	cell = row.createCell(0);
+	cell.setCellValue("테스트 데이터 (2,0");
+	
+	cell = row.createCell(1);
+	cell.setCellValue("테스트 데이터(2,1)");
+	
+	cell = row.createCell(2);
+	cell.setCellValue("테스트 데이터(2,2)");
+	
+	
+	
 	FileOutputStream fos = null;
 	
 	try {
