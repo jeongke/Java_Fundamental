@@ -17,7 +17,7 @@ public class CoinMarketCapCrawlingDemo {
 		String jsonStr = null;
 		try {
 			jsonStr = Jsoup.connect(url)
-					.data("id","1")
+					.data("id","2")
                     .data("convertId","2781")
                     .data("timeStart","1616284800")
                     .data("timeEnd","1621555200")
@@ -25,6 +25,8 @@ public class CoinMarketCapCrawlingDemo {
                     .userAgent("Mozilla")
                     .ignoreContentType(true)
                     .execute().body();
+			
+			System.out.println(jsonStr);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

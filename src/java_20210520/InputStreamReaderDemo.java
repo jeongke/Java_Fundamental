@@ -8,7 +8,8 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 
 public class InputStreamReaderDemo {
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) 
+			throws IOException {
 		/*
 		InputStream in = System.in;//source가 키보드인 경우
 		byte[] b = new byte[100];
